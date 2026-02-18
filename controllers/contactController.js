@@ -12,9 +12,10 @@ exports.submitContactForm = async (req, res) => {
     }
 
     await sendMail({
-      to: "bhattmanik94@gmail.com",
+      to: "anmolchauhan@alirapharmaceuticals.com",
       cc: [
-        "manikstudy18@gmail.com",
+        "akshat99055@gmail.com",
+        "bhattmanik94@gmail.com",
         
       ],
       subject: "New Contact Us Enquiry",
